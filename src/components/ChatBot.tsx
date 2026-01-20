@@ -168,7 +168,7 @@ export function ChatBot({ isOpen, onClose }: ChatBotProps) {
                       <h3 className="text-base font-semibold text-white">AI Assistant</h3>
                       <div className="flex items-center gap-2">
                         <div className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-                        <span className="text-xs text-white/50">Online • Groq LLM</span>
+                        <span className="text-xs text-white/50">Online • AI</span>
                       </div>
                     </div>
                   </div>
@@ -271,7 +271,7 @@ export function ChatBot({ isOpen, onClose }: ChatBotProps) {
                           </motion.div>
                           <h4 className="text-lg font-medium text-white">How can I help you?</h4>
                           <p className="mt-2 text-sm text-white/40 max-w-[200px]">
-                            Ask me anything. I&apos;m powered by Groq&apos;s ultra-fast AI.
+                           Ask me anything. I&apos;m powered by an ultra-fast AI.
                           </p>
                         </motion.div>
                       )}
@@ -372,7 +372,7 @@ export function ChatBot({ isOpen, onClose }: ChatBotProps) {
                     </motion.button>
                   </form>
                   <p className="mt-3 text-center text-[10px] text-white/30">
-                    Powered by Groq • Llama 3.3 70B
+                    Powered by a high-performance inference engine • Advanced language model
                   </p>
                 </div>
               )}

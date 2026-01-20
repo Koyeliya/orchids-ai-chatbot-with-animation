@@ -384,8 +384,8 @@ export default function Home() {
   };
 
   const features = [
-    { icon: Zap, title: "Lightning Fast", desc: "Groq's LPU delivers responses in milliseconds, not seconds", gradient: "from-amber-500 to-orange-600" },
-    { icon: Brain, title: "Smart AI", desc: "Llama 3.3 70B provides deep understanding and reasoning", gradient: "from-violet-500 to-purple-600" },
+    { icon: Zap, title: "Lightning Fast", desc: "Our high-performance inference engine delivers responses in milliseconds, not seconds", gradient: "from-amber-500 to-orange-600" },
+    { icon: Brain, title: "Smart AI", desc: "Our state-of-the-art language model provides deep understanding and reasoning", gradient: "from-violet-500 to-purple-600" },
     { icon: MessageSquare, title: "Natural Chat", desc: "Fluid conversations that feel genuinely human", gradient: "from-cyan-500 to-blue-600" },
     { icon: Shield, title: "Privacy First", desc: "Your conversations stay private and secure", gradient: "from-emerald-500 to-green-600" },
     { icon: Clock, title: "24/7 Available", desc: "Always online, ready to help anytime you need", gradient: "from-rose-500 to-pink-600" },
@@ -438,8 +438,8 @@ export default function Home() {
             transition={{ delay: 0.6 }}
             className="mt-6 max-w-xl text-lg text-white/60 leading-relaxed"
           >
-            Experience the future of conversation with our AI assistant. 
-            Powered by Groq&apos;s lightning-fast inference engine and Llama 3.3.
+            Experience the future of conversation with our AI assistant.
+            Powered by a high-performance inference engine and an advanced language model.
           </motion.p>
 
           <motion.div
@@ -531,10 +531,10 @@ export default function Home() {
                 <div className="h-10 w-10 rounded-full bg-violet-500/20 flex items-center justify-center">
                   <Zap className="h-5 w-5 text-violet-400" />
                 </div>
-                <h3 className="text-xl font-semibold text-white">Groq LPU Technology</h3>
+                <h3 className="text-xl font-semibold text-white">High-Performance Inference</h3>
               </div>
               <p className="text-white/50 leading-relaxed">
-                Groq&apos;s Language Processing Unit (LPU) delivers inference speeds up to 10x faster than traditional GPUs. 
+                Our advanced inference engine delivers speeds up to 10x faster than traditional solutions.
                 Experience responses in milliseconds, making conversations feel truly natural and instantaneous.
               </p>
             </motion.div>
@@ -544,10 +544,10 @@ export default function Home() {
                 <div className="h-10 w-10 rounded-full bg-fuchsia-500/20 flex items-center justify-center">
                   <Brain className="h-5 w-5 text-fuchsia-400" />
                 </div>
-                <h3 className="text-xl font-semibold text-white">Llama 3.3 70B Model</h3>
+                <h3 className="text-xl font-semibold text-white">Advanced Language Model</h3>
               </div>
               <p className="text-white/50 leading-relaxed">
-                Powered by Meta&apos;s latest Llama 3.3 70B model, offering exceptional reasoning capabilities, 
+                Powered by a state-of-the-art language model, offering exceptional reasoning capabilities,
                 multilingual support, and deep contextual understanding for complex conversations.
               </p>
             </motion.div>
